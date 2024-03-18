@@ -14,7 +14,7 @@ export default function App() {
         <ImageViewer placeholderImageSource={PlaceHolderImage} />
       </View>
       <View style>
-        <Button label="Choose a photo" />
+        <Button label="Choose a photo" theme="primary"/>
         <Button label="Use this photo" />
       </View>
       <StatusBar style="auto" />
