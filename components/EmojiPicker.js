@@ -4,7 +4,7 @@ import { Modal, View, Text, Pressable, StyleSheet } from "react-native";
 function EmojiPicker({isVisible, onClose, children}) {
     return (  
         <Modal animationType="slide" transparent={true} visible={isVisible}>
-            <View style={styles.titleContainer}>
+            <View style={styles.modalContent}>
                 <View style={styles.titleContainer}>
                     <Text style={styles.title}> Choose a sticker </Text>
                     <Pressable onPress={onClose}>
